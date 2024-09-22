@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Curious Freaks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url('promax.jpg'); /* Ensure this path is correct */
+            background-size: cover; /* Adjusts the image size to cover the entire background */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+        .container {
+            display: flex;
+            width: 80%;
+            margin-top: 80px; /* Adjusted for fixed header */
+            position: relative;
+        }
+        .content {
+            flex: 1;
+            background: white;
+            padding: 2em;
+            margin-right: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            color: white;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        .login-button {
+            position: absolute;
+            right: 20px;
+            top: 80px;
+            z-index: 1000; /* Ensures button is on top */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hello Curious Freaks</h1>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h2>Welcome to Your Career Choices</h2>
+            <p>Are you trying to find the perfect career path? Explore the options below to get started on your journey!</p>
+            <a href="https://engineering.careers360.com/colleges/list-of-engineering-colleges-in-tamil-nadu" class="button">Engineering</a>
+            <a href="https://www.nirfindia.org/Rankings/2024/MedicalRanking.html" class="button">Medicine</a>
+            <a href="https://collegedunia.com/arts-colleges" class="button">Arts</a>
+            <a href="https://www.mbauniverse.com/top-mba-colleges" class="button">Business</a>
+            <a href="https://www.geeksforgeeks.org/top-technology-trends-2/" class="button">Technology</a>
+        </div>
+       
+    </div>
+</body>
+</html>
